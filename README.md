@@ -23,3 +23,4 @@ Neo4j database should be put into the project folder.
 Suggested username&password: neo4j-admin123
 
 Import this repository as a maven project to your IDE.
+After project run is completed, you should be able to see and query dependencies by logging into Neo4j web UI: http://127.0.0.1:7474/browser/
