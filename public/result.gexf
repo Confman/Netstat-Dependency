@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+  <graph mode="static" defaultedgetype="directed">
+    <nodes>
+      <node id="4" label="10.23.233.110_s" />
+      <node id="0" label="10.22.0.127_s" />
+      <node id="1" label="10.23.233.110_d" />
+      <node id="5" label="10.22.0.127_d" />
+      <node id="6" label="172.31.11.118_s" />
+      <node id="2" label="172.31.11.118_d" />
+      <node id="3" label="10.22.0.1274_s" />
+    </nodes>
+    <edges>
+      <edge source="6" target="1" label="sshd(22),kntcma.exe(3660),klzagent(52696)-3" />
+      <edge source="0" target="1" label="kntcma.exe(3660)-1" />
+      <edge source="0" target="2" label="DSSManager.exe(17443),PolicyServer.exe(40000)-2" />
+      <edge source="3" target="1" label="sshd(22)-1" />
+      <edge source="6" target="5" label="CcmExec.exe(61376)-1" />
+      <edge source="4" target="2" label="PolicyServer.exe(40000)-1" />
+      <edge source="4" target="5" label="System(445),ssh(22)-2" />
+    </edges>
+  </graph>
+</gexf>
