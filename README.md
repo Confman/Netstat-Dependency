@@ -23,6 +23,3 @@ Neo4j database should be put into the project folder.
 Suggested username&password: neo4j-admin123
 
 Import this repository as a maven project to your IDE.
-
-## License
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
