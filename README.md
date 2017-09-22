@@ -1,10 +1,9 @@
 # Netstat-Dependency
-
 ![alt text](https://raw.githubusercontent.com/Confman/Netstat-Dependency/master/Capture.PNG)
 
 ## Getting Started
-This project is intended to leverage netstat output collected from all servers in order to create dependency map between servers utilizing Spark, GraphX and Neo4J.
-It also generates json and gexf graph outputs.
+This project leverages netstat output that is collected from all servers in order to create dependency map between them by utilizing Spark, GraphX and Neo4j.
+It also generates json and gexf graph outputs for other possible use cases.
 
 Netstat output should be named as establishedConnections.out and put into public folder.
 Netstat output format should be as follows:
