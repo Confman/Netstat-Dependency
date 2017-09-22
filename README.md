@@ -7,7 +7,7 @@ It also generates json and gexf graph outputs for other possible use cases.
 
 Netstat output should be named as establishedConnections.out and put into public folder.
 Netstat output format should be as follows:
-<hostname>,<ip>,<source_or_target_port>,<target_ip>,<source_or_target_port>,<process_name>
+<server_hostname>,<server_ip>,<source_or_target_port>,<target_ip>,<source_or_target_port>,<process_name>
   
 This repository's establishedConnections.out is a mock one. Code is also tested with a realistic output of over 360k entries. 
 
